@@ -1,0 +1,18 @@
+# Right-angled triangles
+
+Pythagoras: $a^2 + b^2 = c^2$
+  - c is always the longest side
+  - only works when one angle is 90 degrees
+
+! Finding the long side
+$ c = \sqrt{a^2 + b^2}
+
+Example: a ladder 3 m from a wall reaches 4 m up
+  $ c = \sqrt{3^2 + 4^2}
+  $ = \sqrt{9 + 16}
+  $ c = 5
+> check: 9 + 16 = 25
+
+Area and a swinging weight
+  $ A = \frac{1}{2} b h
+  $ T = 2\pi \sqrt{\frac{L}{g}}

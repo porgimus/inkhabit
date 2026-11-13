@@ -1,0 +1,13 @@
+# When to plant out
+
+Plant when the days are long enough and the frost risk is low
+@ axes Amount Month
+@ curve up Daylight
+@ curve down Frost
+@ point Planting
+
+From seed to plate
+@ flow sow indoors -> harden off -> plant out -> harvest
+
+! Too early: frost risk still high
+  one cold night -> seedlings lost -> start again

@@ -1,0 +1,39 @@
+[project]
+name = "inkhabit"
+version = "0.1.0"
+description = "Your handwriting as a font, and as a pen an agent can write with"
+readme = "README.md"
+license = "AGPL-3.0-or-later"
+license-files = ["LICENSE"]
+authors = [{ name = "Porg" }]
+requires-python = ">=3.12"
+dependencies = [
+    "fonttools>=4.68.0",
+    "numpy>=2.5.4",
+    "opencv-python-headless>=5.0.0.93",
+    "pillow>=13.0.0",
+    "pymupdf>=2.1",
+    "pyobjc-framework-quartz>=13.0",
+    "pyobjc-framework-vision>=13.0",
+    "scikit-image>=0.26.0",
+    "scipy>=1.18.1",
+    "shapely>=2.2.0",
+    "uharfbuzz>=0.57.0",
+]
+
+[project.scripts]
+inkhabit = "inkhabit:main"
+
+[build-system]
+requires = ["uv_build>=0.11.3,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "uharfbuzz>=0.57.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]

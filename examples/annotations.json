@@ -1,0 +1,13 @@
+[
+ {"type": "underline", "find": "A lighthouse is not a building so much as a promise"},
+ {"type": "note", "find": "A lighthouse is not a building so much as a promise", "side": "right", "text": "good opening line", "arrow": true},
+ {"type": "circle", "find": "forgiving"},
+ {"type": "note", "find": "forgiving", "side": "right", "text": "odd word! look it up", "arrow": true},
+ {"type": "highlight", "find": "Sound is the", "colour": "yellow"},
+ {"type": "bracket", "find": "A keeper cannot build a taller", "side": "left"},
+ {"type": "note", "find": "A keeper cannot build", "side": "left", "text": "one night vs one year"},
+ {"type": "double-underline", "find": "acts alone"},
+ {"type": "star", "find": "The careful reader"},
+ {"type": "strike", "find": "quite suddenly"},
+ {"type": "note", "side": "bottom", "text": "Q: is this true of harbours too? see ch. 9", "for": "note"}
+]

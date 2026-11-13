@@ -1,0 +1,7 @@
+data/
+out/
+scratch/
+.venv/
+__pycache__/
+*.goodnotes
+dist/

@@ -1,0 +1,10 @@
+[
+ {"page": 0, "rect": [190, 109, 520, 125], "text": "Mortimer P. Wafflesworth"},
+ {"page": 0, "rect": [190, 149, 520, 165], "text": "11 November 2026"},
+ {"page": 0, "rect": [190, 189, 520, 205], "text": "12 Hammock Lane"},
+ {"page": 0, "rect": [190, 229, 520, 245], "text": "Dullsville, not a real place"},
+ {"page": 0, "rect": [190, 269, 520, 285], "text": "Lunch"},
+ {"page": 0, "rect": [72, 340, 520, 470], "text": "I was told there would be free snacks. Also my daughter says reading is good for me, and the couch at home is broken. Do you lend out hammocks?"},
+ {"field": "email", "text": "mortimer@example.com"},
+ {"field": "phone", "text": "(555) 010-0113"}
+]
